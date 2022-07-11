@@ -88,6 +88,10 @@ a {
     font-weight: 500;
     letter-spacing: 1px;
     display: none;
+    transition: var(--transition);
+}
+.scroll:hover{
+    background-color: #3379e1;
 }
 /*end scroll button */
 
