@@ -29,3 +29,15 @@ scrollBtn.addEventListener("click", function () {
         behavior:"smooth",
     });
 });
+
+//header to appear and be fixed
+let header = document.querySelector("header")
+
+window.onscroll = function(){
+    if(window.scrollY >= 400){
+        header.style.cssText = "position:fixed;background-color:white;z-index:10;width:100%;"
+    }
+    if(window.scrollY === 0){
+        header.style.cssText = "position:relative;background-color:transparent;z-index:10;width:100%;"
+    }
+}
