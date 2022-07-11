@@ -100,6 +100,7 @@ header {
     min-height: 97px;
     position: relative;
     border-bottom: 1px solid rgba(42, 42, 42, 0.2);
+    transition: var(--transition);
 }
 
 header .container {
